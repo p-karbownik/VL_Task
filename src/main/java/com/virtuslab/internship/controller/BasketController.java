@@ -2,7 +2,6 @@ package com.virtuslab.internship.controller;
 
 import com.virtuslab.internship.dto.BasketDTO;
 import com.virtuslab.internship.dto.ReceiptDTO;
-import com.virtuslab.internship.receipt.Receipt;
 import com.virtuslab.internship.service.BasketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
