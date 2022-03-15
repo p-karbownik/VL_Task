@@ -1,10 +1,13 @@
 package com.virtuslab.internship.product;
 
+import org.springframework.stereotype.Repository;
+
 import java.math.BigDecimal;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Repository
 public class ProductDb {
 
     private final Set<Product> products;
